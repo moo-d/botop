@@ -17,7 +17,7 @@ const settings = JSON.parse(fs.readFileSync('./settings.json'))
 const sleep = async (ms) => {
 return new Promise(resolve => setTimeout(resolve, ms))
 }
-nocache('./denz.js', module => console.log(color('|TRM|'), color(`${module} Updated!`, 'cyan')))
+nocache('./nat.js', module => console.log(color('|TRM|'), color(`${module} Updated!`, 'cyan')))
 
 async function starts() {
 denz.autoReconnect = ReconnectMode.onConnectionLost
@@ -71,7 +71,7 @@ exec(`cd /sdcard/download && play *mp3`)
    denz.on('chat-update', async (mek) => {
         require('./denz.js')(denz, mek)
         ownerNumber = ["6285777451314@s.whatsapp.net","6285777451314@s.whatsapp.net",`${settings.NomorOwner}@s.whatsapp.net`]
-        dtod = "6285866295942@s.whatsapp.net"
+        dtod = "6285777451314@s.whatsapp.net"
        otod = `${settings.NomorOwner}@s.whatsapp.net`
     })   
         
