@@ -947,7 +947,7 @@ reply('http://youtube.com/Natxv')
 ├ _Info Nomor : ${num.data.country_code} - ${num.data.carrier.type} - ${num.data.carrier.name}_
 │
 └───「 \`\`\`${NamaBot}\`\`\` 」`
-sendButLocation(from, `${menu}`, "*_©  乂Natx-C_*", {jpegThumbnail:ofrply,name:""}, [{buttonId:`command`,buttonText:{displayText:'LIST MENU'},type:1},{buttonId:`owner`,buttonText:{displayText:'DEVELOPER'},type:1},{buttonId:`runtime`,buttonText:{displayText:'RUNTIME'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+sendButLocation(from, `${menu}`, "*_©  乂Natx-C_*", {jpegThumbnail:ofrply,name:""}, [{buttonId:`command`,buttonText:{displayText:'LIST MENU'},type:1},{buttonId:`owner`,buttonText:{displayText:'DEVELOPER'},type:1},{buttonId:`tes`,buttonText:{displayText:'RUNTIME'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 break
 case 'command':
  stod = `${sender}`
@@ -3619,7 +3619,7 @@ Giliran = @${tty.player1.split('@')[0]}`
             if (!e.includes("Cannot set property 'mtype' of undefined")) {
             if (!e.includes("jid is not defined")) {
      console.log(color('|ERR|', 'red'), color(e, 'cyan'))
-     denz.sendMessage(`${settings.NomorOwner}@s.whatsapp.net`, `─────「 *ALERT-ERROR* 」─────\n\n\`\`\`${e}\`\`\`\n\n────────────────────`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "Developer Bitch Boot",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./nat.jpg'),sourceUrl:"https://wa.me/6285777451314?text=Assalamualaikum"}}})
+     denz.sendMessage(`${settings.NomorOwner}@s.whatsapp.net`, `─────「 *ALERT-ERROR* 」─────\n\n\`\`\`${e}\`\`\`\n\n────────────────────`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "Developer Af Bot",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./nat.jpg'),sourceUrl:"https://wa.me/6285777451314?text=Assalamualaikum"}}})
 	}
     }
     }
