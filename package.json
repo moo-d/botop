@@ -1,7 +1,7 @@
 {
-  "name": "dcode-denpa",
+  "name": "Natx-C",
   "version": "0.0.1",
-  "description": "bitch-boot",
+  "description": "Af Bot",
   "main": "node index",
   "directories": {
     "lib": "lib"
@@ -17,7 +17,7 @@
     "whatsapp",
     "bot"
   ],
-  "author": "denis-putra",
+  "author": "Natx-C",
   "license": "ISC",
   "dependencies": {
     "@adiwajshing/baileys": "github:adiwajshing/baileys",

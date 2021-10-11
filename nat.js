@@ -106,7 +106,7 @@ battery: "" || "Tidak Terdeteksi",
 isCharge: "" || false
 }
 offline = false
-publik = false
+publik = true
 bugc = true
 waktuafk = 'Nothing'
 alasanafk = 'Nothing'
